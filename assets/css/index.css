@@ -1,6 +1,66 @@
+body {
+  background: url(https://images.unsplash.com/photo-1464347601390-25e2842a37f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1085&q=80);
+  background-size: cover;
+  background-position: center;
+}
+section {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  background-color: rgba(192, 192, 192, 0.514);
+  width: 22vw;
+  height: 30vh;
+  border-radius: 40px;
+}
+label {
+  display: block;
+  font-size: 2em;
+  font-weight: bolder;
+  background-color: rebeccapurple;
+  color: white;
+  height: 5vh;
+  text-align: center;
+}
+input {
+  padding-left: 10px;
+  width: 60%;
+  margin-top: 4vh;
+  margin-left: 4vw;
+  margin-bottom: 1vh;
+  border-radius: 20px;
+  border: 2px solid rebeccapurple;
+  height: 4vh;
+  font-size: 2em;
+  color: rebeccapurple;
+  font-weight: bolder;
+}
 #ergebniss {
   position: absolute;
   top: 20vh;
-  left: 10vw;
-  font-size: 10em;
+  left: 0vw;
+  width: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  color: greenyellow;
+}
+input,
+button:focus {
+  outline: none;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+  font-weight: bolder;
+  box-shadow: 2px 3px 6px black;
+  position: relative;
+  left: 5.5vw;
+}
+
+button:hover {
+  box-shadow: none;
 }
